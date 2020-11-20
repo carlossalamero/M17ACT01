@@ -1,0 +1,10 @@
+CREATE TABLE M17ACT01 (
+
+id          NUMBER,
+username    VARCHAR2(200),
+password    VARCHAR2(200),
+
+CONSTRAINT pk_id PRIMARY KEY (id)
+);
+INSERT INTO M17ACT01
+VALUES ('1','Salamero','1234');
